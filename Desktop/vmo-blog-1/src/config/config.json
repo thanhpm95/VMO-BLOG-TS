@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Thanhkid1412ubqn@@",
+    "database": "VmoBlog",
+    "host": "localhost",
+    "dialect": "mysql",
+    "token": {
+      "secret_access_token": "vmo-blog-phamminhthanh",
+      "secret_access_token_expire_in": 1000,
+      "secret_refresh_token": "vmo-blog-phamminhthanh-123456",
+      "secret_refresh_token_expire_in": 86400
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "Thanhkid1412ubqn@@",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "Thanhkid1412ubqn@@",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
